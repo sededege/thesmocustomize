@@ -92,7 +92,7 @@ const Select = ({ nfts }) => {
                     {
                         nftsAttributes?.map(
                             a =>
-                                <div onClick={() => setSelect(a)} className={`${select === a ? 'border-4 p-2 rounded-lg border-teal-700' : 'border-none'} transition-all 2s`}>
+                                <div onClick={() => setSelect(a)} className={`${select === a ? 'border-4 bg-white text-black  rounded-lg border-tesmo2' : 'border-none bg-tesmo2 pb-2 rounded-lg'} transition-all 2s`}>
                                     <img className='object-cover rounded-lg' src={a.metadata.image} />
                                     <p className='text-center mt-2'> {a.metadata.name}</p>
                                 </div>

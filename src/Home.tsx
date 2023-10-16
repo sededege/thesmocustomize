@@ -96,23 +96,22 @@ if(randomqty === 2){
 
   return (
     <div >
-      <p className='font-bold mt-4 mb-4'>Build your Thesmo!</p>
-      <div className=' fixed left-[2vw] rounded-lg top-[10vh] w-[96vw]  bg-slate-800 p-10 z-[20] h-[80vh]  flex flex-col overflow-auto bg-opacity-95 '>
+      <div className=' fixed left-0 rounded-lg top-0 w-[100vw]  bg-tesmo2 p-10 z-[20] h-[100vh]  flex  overflow-auto bg-opacity-95 '>
 
         <div className='col-span-1   h-full items-center flex justify-center gap-10 cursor-pointer'>
-          <ul className='flex gap-4 '>
+          <ul className='flex flex-col gap-4 fixed left-8 '>
             {
-              data.map(a => <li className={`${categorieselect.name === a.name ? 'bg-sky-800 rounded-lg px-4 py-1  text-blue-200' : 'rounded-lg px-4 py-1  text-blue-200'} cursor-pointer transition-all 2s`} onClick={() => setCategorieselect(data.filter(b => b.name === a.name)[0])}> {a.name}</li>)
+              data.map(a => <li className={`${categorieselect.name === a.name ? 'bg-white  rounded-lg px-4 py-1  text-tesmo2' : 'rounded-lg px-4 py-1  text-blue-200'} cursor-pointer transition-all 2s`} onClick={() => setCategorieselect(data.filter(b => b.name === a.name)[0])}> {a.name}</li>)
             }
 
           </ul>
         </div>
         <div className='flex'>
 
-          <div className=' p-4 gap-4 grid grid-cols-4 w-3/4  '>
+          <div className='  gap-4 grid grid-cols-4 pl-[10vw] w-3/4  '>
             {
               categorieselect?.types?.map((a, index) =>
-                <div className={`${index + 1 === What(categorieselect.name) ? 'border-2 border-teal-500 rounded-lg' : 'border-0'} `}>
+                <div className={`${index + 1 === What(categorieselect.name) ? ' bg-white bg-opacity-10  shadow-lg rounded-lg' : 'border-0'} transition-all 2s ease-in-out `}>
                   <CardItem agregar={agregar} cat={categorieselect.name} item={a} />
                 </div>
               )
