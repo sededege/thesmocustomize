@@ -7,7 +7,7 @@ import CardItem from './components/CardItem.jsx'
 import { Export } from './Export.js'
 
 
-function Home({ nftselected, randombg, bodytrait, randomTrait }) {
+function Home({ nftselected, randombg, bodytrait, randomTrait, randomclothes, randomacc, randomweapon, randomhair, randomqty}) {
   const [categorieselect, setCategorieselect] = useState([])
   const [acc, setAcc] = useState(''); // State for "Acc"
   const [background, setBackground] = useState(randombg); // State for "Background"
@@ -17,9 +17,33 @@ function Home({ nftselected, randombg, bodytrait, randomTrait }) {
   const [weapon, setWeapon] = useState(''); // State for "Weapon"
 
 
-
   useEffect(() => {
     setCategorieselect(data[0])
+
+
+if(randomqty === 2){
+    if (data[randomTrait].name === 'Acsessores') {
+      setAcc(Math.floor(Math.random() * data[randomTrait].types?.length) + 1)
+    }
+
+    if (data[randomTrait].name === 'Clothes') {
+      setClothes(Math.floor(Math.random() * data[randomTrait].types?.length) + 1)
+    }
+    if (data[randomTrait].name === 'Hair') {
+      setHair(Math.floor(Math.random() * data[randomTrait].types?.length) + 1)
+    }
+    if (data[randomTrait].name === 'Weapon') {
+      setWeapon(Math.floor(Math.random() * data[randomTrait].types?.length) + 1)
+    }
+  }
+
+  if ( randomqty === 4){
+    setClothes(randomclothes)
+    setHair(randomhair)
+    setWeapon(randomweapon)
+    setAcc(randomacc)
+  }
+
   }, [])
 
   const updateMetadata = () => {
@@ -27,15 +51,15 @@ function Home({ nftselected, randombg, bodytrait, randomTrait }) {
   }
 
   const agregar = (cat, item) => {
-    /*  if (cat === 'Background') {
-       setBackground(item.id)
-     } */
+    if (cat === 'Background') {
+      setBackground(item.id)
+    }
     if (cat === 'Acsessores') {
       setAcc(item.id)
     }
-    /*  if (cat === 'Body') {
-       setBody(item.id)
-     } */
+    if (cat === 'Body') {
+      setBody(item.id)
+    }
     if (cat === 'Clothes') {
       setClothes(item.id)
     }

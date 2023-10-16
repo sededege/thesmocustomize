@@ -11,6 +11,11 @@ const Select = ({ nfts }) => {
     const [select, setSelect] = useState([])
     const [play, setPlay] = useState(false)
     const [randombg, setRandomBg] = useState(false)
+    const [randomweapon, setRandomWeapon] = useState(false)
+    const [randomacc, setRandomAcc] = useState(false)
+    const [randomhair, setRandomHair] = useState(false)
+    const [randomclothes, setRandomClothes] = useState(false)
+    const [randomqty, setRandomQty] = useState('')
     const [randomTrait, setRandomTrait] = useState(false)
     const [body, setBodyTrait] = useState(false)
 
@@ -37,7 +42,7 @@ const Select = ({ nfts }) => {
 
 
     useEffect(() => {
-      
+
         nfts.map(
             a => images(a, a.uri)
         )
@@ -46,14 +51,29 @@ const Select = ({ nfts }) => {
 
 
     const randomtrait = () => {
-   
+
         setBodyTrait(select.metadata.attributes.filter(a => a.trait_type === 'Skin')[0].value)
         setRandomBg(Math.floor(Math.random() * 15) + 1);
         setPlay(true)
         const numbers = [2, 3, 4, 5];
         const randomIndex = Math.floor(Math.random() * numbers.length);
         const randomNum = numbers[randomIndex];
-       setRandomTrait(randomNum)
+        setRandomTrait(randomNum)
+        setRandomQty(2)
+
+    }
+
+    const randomtraitdos = () => {
+
+        setBodyTrait(select.metadata.attributes.filter(a => a.trait_type === 'Skin')[0].value)
+        setRandomBg(Math.floor(Math.random() * 15) + 1);
+        setRandomWeapon(Math.floor(Math.random() * 5) + 1);
+        setRandomHair(Math.floor(Math.random() * 25) + 1);
+        setRandomAcc(Math.floor(Math.random() * 15) + 1);
+        setRandomClothes(Math.floor(Math.random() * 15) + 1);
+        setPlay(true)
+        setRandomQty(4)
+
 
 
     }
@@ -63,7 +83,7 @@ const Select = ({ nfts }) => {
             <WalletMultiButton />
             <div>
                 {
-                    play && <Home randombg={randombg} bodytrait={body} nftselected={select} randomTrait={randomTrait} />
+                    play && <Home randomqty={randomqty} randomacc={randomacc} randombg={randombg} bodytrait={body} nftselected={select} randomTrait={randomTrait} randomweapon={randomweapon} randomclothes={randomclothes} randomhair={randomhair} />
                 }
             </div>
             <div className='relative w-1/2 h-[80vh] justify-center flex flex-col pb-10 px-4 overflow-auto'>
@@ -84,8 +104,9 @@ const Select = ({ nfts }) => {
 
 
             </div>
-            <div className='flex ga p-4'>
-                <button onClick={() => randomtrait()} >Customize your OG Thesmo!</button>
+            <div className='flex gap-4'>
+                <button onClick={() => randomtrait()} >2 random traits</button>
+                <button onClick={() => randomtraitdos()} >4 random traits</button>
                 <button>Shop</button>
 
             </div>

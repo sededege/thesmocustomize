@@ -17,7 +17,7 @@ const CardItem = ({ item, cat, agregar }) => {
           alt="Background Image"
           className="rounded-t-lg"
         />
-     <p className=" right-2 bg-red-500 px-4 rounded-b-lg font-regular text-[0.8rem] items-center text-white">
+     <p className={`${item.rarity === 'Epic' && 'bg-red-500'} ${item.rarity === 'Rare' && 'bg-purple-500'} ${item.rarity === 'Legendary' && 'bg-yellow-500'} ${item.rarity === 'common' && 'bg-gray-500'} right-2  px-4 rounded-b-lg font-regular text-[0.8rem] items-center text-white`}>
           {item.rarity}
         </p>
       <p className="mt-2 mb-2 text-sky-500 ">{item.name}</p>
@@ -36,13 +36,13 @@ const CardItem = ({ item, cat, agregar }) => {
           <p className="">{item.price}</p>
         </div>
       </div>
-      <div className="flex justify-between">
+      {/* <div className="flex justify-between">
         <p className="">Points</p>
         <div className="flex items-center gap-1">
           <GiTwoCoins className="text-yellow-400" />
           <p className="">{item.points}</p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -6,114 +6,114 @@ export const data = [
       {
         id: 1,
         name: "Pinky Olympus",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 2,
         name: "Unicorn Dream",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 3,
         name: "Ancient Hole",
-        supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        supply: 150,
+        price: 0.02,
+        points: 250,
+        rarity: 'common'
       },
       {
         id: 4,
         name: "Kraken Paradise",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 5,
         name: "Nimbus Time",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 6,
         name: "Green Dream",
         supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        price: 0.03,
+        points: 500,
+        rarity: 'Rare'
       },
       {
         id: 7,
         name: "Hot As Hell",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 8,
         name: "Ancient Sunset",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 9,
         name: "Nuclear Booom",
         supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        price: 0.03,
+        points: 500,
+        rarity: 'Rare'
       },
       {
         id: 10,
         name: "Old Time Wind",
-        supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        supply: 150,
+        price: 0.02,
+        points: 250,
+        rarity: 'Common'
       },
       {
         id: 11,
-        name: "Snake Valley",
-        supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        name: "Nessie",
+        supply: 10,
+        price: 0.15,
+        points: 5000,
+        rarity: 'Legendary'
       },
       {
         id: 12,
         name: "Blue Nightmare",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 13,
         name: "Medusa Mount",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 14,
         name: "Minotaur",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 15,
@@ -187,121 +187,121 @@ export const data = [
         id: 1,
         name: "Sistrum",
         supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        price: 0.03,
+        points: 500,
+        rarity: 'Rare'
       },
       {
         id: 2,
         name: "Scarab",
         supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        price: 0.03,
+        points: 500,
+        rarity: 'Rare'
       },
       {
         id: 3,
         name: "Shell",
         supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        price: 0.03,
+        points: 500,
+        rarity: 'Rare'
       },
       {
         id: 4,
         name: "Phallus",
         supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        price: 0.03,
+        points: 500,
+        rarity: 'Rare'
       },
       {
         id: 5,
         name: "Egyptian",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 6,
         name: "Heart",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 7,
         name: "Bulla",
         supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        price: 0.03,
+        points: 500,
+        rarity: 'Rare'
       },
       {
         id: 8,
         name: "Phiale",
-        supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        supply: 150,
+        price: 0.02,
+        points: 250,
+        rarity: 'Common'
       },
       {
         id: 9,
         name: "Labyrinth",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 10,
         name: "Amphora",
         supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        price: 0.03,
+        points: 500,
+        rarity: 'Rare'
       },
       {
         id: 11,
         name: "Stone",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 12,
         name: "Aegis",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 13,
         name: "Medusa",
-        supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        supply: 10,
+        price: 0.15,
+        points: 10000,
+        rarity: 'Legendary'
       },
       {
         id: 14,
         name: "Serpent",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 15,
         name: "Flyer",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
     ],
   },
@@ -313,121 +313,121 @@ export const data = [
         id: 1,
         name: "Ariadne",
         supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        price: 0.03,
+        points: 500,
+        rarity: 'Rare'
       },
       {
         id: 2,
         name: "Otillia",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 3,
         name: "Spartan Chest",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 4,
         name: "Royalty",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 5,
         name: "Venom",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 6,
         name: "Chiarra",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 7,
         name: "Egyptian",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 8,
         name: "Tyro",
         supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        price: 0.03,
+        points: 500,
+        rarity: 'Rare'
       },
       {
         id: 9,
         name: "Medusa",
-        supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        supply: 10,
+        price: 0.15,
+        points: 5000,
+        rarity: 'Legendary'
       },
       {
         id: 10,
         name: "Argive",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 11,
         name: "Hera",
         supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        price: 0.03,
+        points: 500,
+        rarity: 'Rare'
       },
       {
         id: 12,
         name: "Mattel",
         supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        price: 0.03,
+        points: 500,
+        rarity: 'Rare'
       },
       {
         id: 13,
         name: "Thetis",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 14,
         name: "Nymph",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 15,
         name: "Princess Warrior",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
     ],
   },
@@ -438,202 +438,202 @@ export const data = [
       {
         id: 1,
         name: "Athenian Owl",
-        supply: 100,
-        price: 0.05,
+        supply: 50,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 2,
         name: "Shayara",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 3,
         name: "Goldic",
         supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        price: 0.03,
+        points: 500,
+        rarity: 'Rare'
       },
       {
         id: 4,
         name: "Prestige",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 5,
         name: "Moon light",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 6,
         name: "Golden Viking",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 7,
         name: "Spartan Gladiator",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 8,
         name: "Wizardly",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 9,
         name: "Crown Bridal",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 10,
         name: "Celestia Gold",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 11,
         name: "Trojan",
-        supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        supply: 10,
+        price: 0.15,
+        points: 5000,
+        rarity: 'Legendary'
       },
       {
         id: 12,
         name: "Royalty",
-        supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        supply: 10,
+        price: 0.15,
+        points: 5000,
+        rarity: 'Legendary'
       },
       {
         id: 13,
         name: "Robotica",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        points: 1000,
+        rarity: 'Epic',
       },
       {
         id: 14,
         name: "Ra",
         supply: 100,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 15,
         name: "Horned",
-        supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        supply: 10,
+        price: 0.15,
+        points: 5000,
+        rarity: 'Legendary'
       },
       {
         id: 16,
         name: "Hades",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 17,
         name: "Drippy Helmet",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 18,
         name: "Galea Spartan",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 19,
         name: "Angel Warrior Helmet",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 20,
         name: "Skully",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 21,
         name: "Medusa",
-        supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        supply: 10,
+        price: 0.15,
+        points: 5000,
+        rarity: 'Legendary'
       },
       {
         id: 22,
         name: "Gold Leaf",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 23,
         name: "Spartan",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 24,
         name: "Ramdiator",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 25,
         name: "Stary Princess",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
     ],
   },
@@ -644,42 +644,42 @@ export const data = [
       {
         id: 1,
         name: "Thesword",
-        supply: 100,
+        supply: 50,
         price: 0.05,
-        points: 2000,
+        points: 1000,
         rarity: 'Epic'
       },
       {
         id: 2,
         name: "The Great Ballonet",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 3,
         name: "Bowdess",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 4,
         name: "Ancient Lance",
-        supply: 100,
-        price: 0.05,
+        supply: 25,
+        price: 0.07,
         points: 2000,
-        rarity: 'Epic'
+        rarity: 'Legendary'
       },
       {
         id: 5,
         name: "Divine Wings",
-        supply: 100,
-        price: 0.05,
-        points: 2000,
-        rarity: 'Epic'
+        supply: 10,
+        price: 0.15,
+        points: 5000,
+        rarity: 'Legendary'
       },
     ],
   },
